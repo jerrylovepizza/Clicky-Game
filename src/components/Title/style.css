@@ -1,0 +1,25 @@
+.container {
+    width: 75%;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0px 0px 15px 5px #999;
+    }
+  
+  .title {
+    width: 100%;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+    color: goldenrod;
+  }
+  
+  .minions {
+    width: 15%;
+    padding-bottom: 1px;
+  }
+  
+  .score {
+    font-size: 150%;
+    font-weight: inherit;
+  }

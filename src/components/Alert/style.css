@@ -1,0 +1,28 @@
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  
+  .blink{
+      animation: blink 1.6s linear infinite;
+  }
+  
+  .alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -10%;
+    background: rgb(228, 228, 228, .9);
+    color: rgb(177, 66, 2);
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-weight: bolder;
+    text-align: center;
+    z-index: 1;
+    }
+  
+  .mAlert {
+    width: 45%;
+  }
